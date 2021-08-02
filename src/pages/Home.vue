@@ -7,5 +7,9 @@ export default {
 	name: 'Home',
 
 	components: {},
+
+	page: {
+		title: 'Home',
+	},
 };
 </script>

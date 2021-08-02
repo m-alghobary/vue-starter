@@ -10,8 +10,19 @@
 export default {
 	name: 'App',
 
+	page: {
+		titleTemplate(title) {
+			title = typeof title === 'function' ? title(this.$store) : title;
+			return title ? `${title} | Vue template` : 'Home';
+		},
+	},
+
 	data: () => ({
 		//
 	}),
 };
 </script>
+
+<style lang="scss">
+@import '~nprogress/nprogress.css';
+</style>
