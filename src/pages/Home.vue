@@ -1,12 +1,14 @@
 <template>
-	<div class=""></div>
+	<app-layout title="Home"></app-layout>
 </template>
 
 <script>
+import AppLayout from './layout/app-layout.vue';
+
 export default {
 	name: 'Home',
 
-	components: {},
+	components: { AppLayout },
 
 	page: {
 		title: 'Home',
