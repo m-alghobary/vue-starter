@@ -5,7 +5,8 @@ export default [
 		component: () => import('@pages/Home.vue'),
 	},
 
-	// auto generated code will be injected here
+	// auto generated code will be injected here 👇🏼
+
 	// ROUTES_HYGEN_SLOT
 
 	{

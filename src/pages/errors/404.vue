@@ -7,7 +7,7 @@
 			<h1 class="text-9xl text-gray-700 font-extrabold tracking-wide font-mono">404</h1>
 			<p class="mt-6 text-4xl uppercase">Not found</p>
 			<p class="text-lg">We cannot find the page you request!</p>
-			<v-btn text> <v-icon left>mdi-arrow-left</v-icon> Back to home</v-btn>
+			<v-btn text to="/"> <v-icon left>mdi-arrow-left</v-icon> Back to home</v-btn>
 		</div>
 	</div>
 </template>
