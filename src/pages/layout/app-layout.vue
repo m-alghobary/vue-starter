@@ -1,6 +1,6 @@
 <template>
 	<v-container fluid class="px-5 pb-8">
-		<div class="pt-3">
+		<div>
 			<div v-if="!!title" class="d-flex">
 				<h1 class="text-xl">
 					<v-icon color="primary" left>mdi-bookmark-multiple</v-icon>
