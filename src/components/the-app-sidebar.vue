@@ -42,7 +42,7 @@ export default {
 		drawer: true,
 		items: [
 			{ title: 'Home', icon: 'mdi-home-city', to: '/' },
-			{ title: 'Users', icon: 'mdi-account-group-outline', to: '/users' },
+			// { title: 'Users', icon: 'mdi-account-group-outline', to: '/users' },
 		],
 		mini: true,
 
